@@ -1,0 +1,14 @@
+{
+  "name": "sass-project",
+  "version": "1.0.0",
+  "description": "practice sass",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass" : "node-sass sass/main.scss css/style.css"
+  },
+  "author": "mayur",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
